@@ -1,18 +1,37 @@
-# Salesforce DX Project: Next Steps
+🌤️ Salesforce Weather API LWC
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+A Lightning Web Component (LWC) that fetches real-time weather data for any city using a public weather API and displays conditions and icons inside Salesforce. This project demonstrates Apex callouts, JSON parsing, LWC UI development, and CSP Trusted Site configuration.
 
-## How Do You Plan to Deploy Your Changes?
+🚀 Features
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+Search weather by city name
 
-## Configure Your Salesforce DX Project
+Real-time results using Apex HTTP callouts
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
+Displays:
 
-## Read All About It
+Weather condition
 
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+Weather icon
+
+Temperature (extendable)
+
+Component available on Home Page, Record Pages, and the App Builder
+
+Fully Salesforce-native: LWC + Apex + Named Credentials / Remote Site Settings
+
+CSP configuration to allow external images
+
+🛠️ Tech Stack
+
+Salesforce Lightning Web Components (LWC)
+
+Apex HTTP Callouts
+
+REST Weather API (WeatherAPI.com or similar)
+
+CSP Trusted Sites
+
+JSON parsing
+
+Salesforce Developer Edition
